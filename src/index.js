@@ -3,9 +3,10 @@ import { render } from 'react-dom';
 import { ApolloClient, InMemoryCache, gql, ApolloProvider } from '@apollo/client';
 
 import './css/index.css';
-import App from './App.jsx';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// this is just sample code. it doesn't actually do anything rn
 const client = new ApolloClient({
   uri: 'https://48p1r2roz4.sse.codesandbox.io',
   cache: new InMemoryCache()
